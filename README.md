@@ -21,3 +21,8 @@ Link: https://www.codesdope.com/blog/article/how-to-create-a-digital-clock-using
 Home: https://getbootstrap.com/
 
 Layout Grid: https://getbootstrap.com/docs/5.0/layout/grid/
+
+## Google Fonts Resource:
+Home: https://fonts.google.com/
+
+Font: https://fonts.google.com/specimen/Orbitron?query=Orbit

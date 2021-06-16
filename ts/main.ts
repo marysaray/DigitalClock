@@ -22,25 +22,11 @@ function currentTime() {
     // create an new instance of date object.
     let date = new Date();
     let hour = date.getHours();
-    updateTime(hour);
+    hour = updateTime(hour);
     let min = date.getMinutes();
-    updateTime(min);
+    min = updateTime(min);
     let sec = date.getSeconds();
-    updateTime(sec);
-
-    // adding time to the 24HR div
-    document.getElementById("all-day").innerHTML =
-                                hour + " : " + min + " : " + sec;
-    // setting the timer
-    let time = setTimeout(function(){
-        currentTime();
-        1000});
-    
-    // adding time to the 12HR div
-    document.getElementById("half-day").innerHTML =
-                                hour + " : " + min + " : " + sec;
-    
-}
+    sec = updateTime(sec);
 /**
  * To always display the elements of time in two-digit format,
  * a 0 is appended before them whenever they are less than 10 
@@ -48,13 +34,26 @@ function currentTime() {
  * @param current time that will be changed. 
  * @returns the expression of the time.
  */
-function updateTime(time) {
-    if (time < 10) {
-        return "0" + time;
-    }
-    else {
-        return time;
-    }
+function updateTime(number) {
+   if (number < 10) {
+       return "0" + number;
+   }
+   else{
+       return number;
+   }
+}
+
+    // adding time to the 24HR div
+    document.getElementById("all-day").innerText =
+                                hour + " : " + min + " : " + sec;
+    // setting the timer
+    let time = setTimeout(function(){
+        currentTime();
+        1000});
+    
+    // adding time to the 12HR div
+    document.getElementById("half-day").innerText =
+                                hour + " : " + min + " : " + sec;
 }
 
 /*

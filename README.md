@@ -55,3 +55,11 @@ All of our sound effects are free to download and ready to use in your next vide
       or register them on any rights management service.
 
       There are some important limits to these rights, described in our User Terms.
+      
+## Unsplash -- Free HD Galaxy Wallpapers:
+Resource: https://unsplash.com/wallpapers/nature/galaxy
+
+Choose from a curated selection of Galaxy wallpapers for your mobile and desktop screens. 
+
+Photo Credit: Karl Anderson:
+https://unsplash.com/photos/HVGn7_dMNX0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

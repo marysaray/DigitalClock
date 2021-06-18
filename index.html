@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Clock</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
-    rel="stylesheet"
-    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-    crossorigin="anonymous">
-    <style>
-        body{
-            margin-top: 150px;
-            background-color: black;
-            color: rgb(54, 223, 21);
-            font-family: 'Orbitron', sans-serif;
-        }
-        h1{
-            text-align: center;
-            color: blue;
-        }
-        h3{
-            color: darkgray;
-        }
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Digital Clock</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+        crossorigin="anonymous">
+        <style>
+            body{
+                margin-top: 150px;
+                background-color: black;
+                color: rgb(54, 223, 21);
+                font-family: 'Orbitron', sans-serif;
+            }
+            h1{
+                text-align: center;
+                color: blue;
+            }
+            h3{
+                color: darkgray;
+            }
 
-        #all-day{
-            font-family: 'Orbitron', sans-serif;
-            font-size: 56px;
-            text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
-        #half-day{
-            font-family: 'Orbitron', sans-serif;
-            font-size: 56px;
-            text-align: center;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
-        .alarm{
-            text-align: center;
-        }
-    
-    </style>
-</head>
+            #all-day{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 56px;
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            #half-day{
+                font-family: 'Orbitron', sans-serif;
+                font-size: 56px;
+                text-align: center;
+                padding-top: 40px;
+                padding-bottom: 40px;
+            }
+            .alarm{
+                text-align: center;
+            }
+        </style>
+    </head>
 
-<body class="container">
+    <body class="container">
 
-    <div class="row justify-content-lg-center">
+        <div class="row justify-content-lg-center">
 
-        <h1>Digital Clock 24-Hour</h1>
+            <h1>Digital Clock 24-Hour</h1>
 
-        <div id="all-day" class="col-sm-6 col-md-4 col-lg-5">
-            24 Hour Digital Clock will go here....
-        </div>
-
-        <h1>Digital Clock 12-Hour</h1>
-
-        <div id="half-day" class="col-sm-6 col-md-4 col-lg-5">
-            12 Hour Digital Clock will go here....
-        </div>
-
-        <div class="alarm">
-            <div id='alarm-container'>
-                <h3>Set Alarm Time</h3>
-                <button  id='setButton' onclick="setAlarm">Set Alarm</button>
-                <select id="alarm-hrs"></select>
-                <select id="alarm-mins"></select>
-                <select id='alarm-secs'></select>
-                <select id="am-pm">
-                    <option value="AM">AM</option>
-                    <option value="PM">PM</option>
-                </select>
-                <button  id='clearButton' onclick="clearAlarm">Clear Alarm</button>
+            <div id="all-day" class="col-sm-6 col-md-4 col-lg-5">
+                24 Hour Digital Clock will go here....
             </div>
+
+            <h1>Digital Clock 12-Hour</h1>
+
+            <div id="half-day" class="col-sm-6 col-md-4 col-lg-5">
+                12 Hour Digital Clock will go here....
+            </div>
+
+            <div class="alarm">
+                <div id='alarm-container'>
+                    <h3>Set Alarm Time</h3>
+                    <button id="set-button">Set Alarm</button>
+                    <select id="set-hour"></select>
+                    <select id="set-min"></select>
+                    <select id="set-sec"></select>
+                    <select id="am-pm">
+                        <option value="AM">AM</option>
+                        <option value="PM">PM</option>
+                    </select>
+                    <button id="clear-button">Clear Alarm</button>
+                </div>
+            </div>
+
         </div>
 
-    </div>
+        <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>   
+        <script src="js/main.js"></script>
 
-    <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" 
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>   
-    <script src="js/main.js"></script>
+    </body>
 
-</body>
 </html>

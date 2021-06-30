@@ -1,8 +1,15 @@
 body{
     margin-top: 40px;
-    background-color: black;
+    background-image: url("/img/karl-anderson-HVGn7_dMNX0-unsplash.jpg");
     color: rgb(54, 223, 21);
     font-family: 'Orbitron', sans-serif;
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -30,5 +37,14 @@ h3{
     text-align: center;
 }
 p{
-    color: blueviolet;
+    color: rgb(54, 223, 21);
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+.bg {
+margin-top: 75px;
+
 }

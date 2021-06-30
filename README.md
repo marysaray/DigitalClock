@@ -1,5 +1,5 @@
 # Digital Clock
-Researching a JavaScript Library Project 
+*Researching a JavaScript Library Project.* 
 ## My Website: https://marysaray.github.io/DigitalClock/
 
 - HTML/CSS
@@ -29,14 +29,14 @@ Home: https://fonts.google.com/
 Font: https://fonts.google.com/specimen/Orbitron?query=Orbit
 
 ## Alarm Feature Inspiration Resource: 
-CodePen Home Alarm clock in Vanilla Javascript:
+*CodePen Home Alarm clock in Vanilla Javascript:*
 
 TIKIHEAD: https://codepen.io/TikiHead/pen/yLyBaXq
 
 ## Free Alarm Sound Effects Resource:
 Website: https://mixkit.co/free-sound-effects/alarm/
 
-All of our sound effects are free to download and ready to use in your next video or audio project, under the Mixkit License.
+*All of our sound effects are free to download and ready to use in your next video or audio project, under the Mixkit License.*
 - 33 Free Alarm Sound Effects.
 
       Items under the Mixkit Sound Effects Free License can be used in your
@@ -59,7 +59,7 @@ All of our sound effects are free to download and ready to use in your next vide
 ## Unsplash -- Free HD Galaxy Wallpapers:
 Resource: https://unsplash.com/wallpapers/nature/galaxy
 
-Choose from a curated selection of Galaxy wallpapers for your mobile and desktop screens. 
+*Choose from a curated selection of Galaxy wallpapers for your mobile and desktop screens.* 
 
 Photo Credit: Karl Anderson:
 https://unsplash.com/photos/HVGn7_dMNX0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink

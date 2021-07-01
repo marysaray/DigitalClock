@@ -1,6 +1,5 @@
 .container{
-    margin-top: 40px;
-    background-image: url("/img/karl-anderson-HVGn7_dMNX0-unsplash.jpg");
+    background-image: url("/img/backgroundimg.jpg");
     color: rgb(54, 223, 21);
     font-family: 'Orbitron', sans-serif;
     /* Full height */
@@ -10,6 +9,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg{
+    margin-top: 75px;
 }
 h1{
     text-align: center;
@@ -41,10 +43,4 @@ p{
 }
 body, html {
     height: 100%;
-    margin: 0;
-}
-  
-.bg {
-margin-top: 75px;
-
 }
